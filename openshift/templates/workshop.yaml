@@ -4,7 +4,8 @@ kind: Template
 metadata:
   name: workshop
   annotations:
-    description: "An example of a ToDo List Application in Java."
+    openshift.io/display-name: "Workshop (Ephemeral)"
+    description: "An example of a ToDo List Application written in Java."
     iconClass: "icon-jboss"
     tags: "kermit-tutorial,jboss,kermit,java"
 labels:
